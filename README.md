@@ -32,3 +32,27 @@ The app randomly picks a recipe from a curated collection of 19 dishes and displ
 ---
 
 ## Project Structure
+whats-for-dinner/
+├── index.html
+├── CSS/
+│ └── style.css
+├── JS/
+│ ├── Meals.js # Recipe data (19 dishes)
+│ └── App.js # App logic and DOM manipulation
+└── assets/
+├── favicon.png
+├── Meals Data.txt
+├── avatar-4.jpg
+└── meals/
+├── meal-01.jpg
+├── meal-02.jpg
+├── ...
+└── meal-19.jpg
+
+---
+
+## How to Run
+
+1. Clone the repository
+2. Open `index.html` in your browser
+3. No build step, no dependencies, no installation required
